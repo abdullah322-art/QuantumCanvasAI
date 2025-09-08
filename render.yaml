@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: qca-service
+    runtime: docker
+    plan: starter
+    envVars:
+      - key: PORT
+        value: 10000
+    healthCheckPath: /
