@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="240" viewBox="0 0 640 240">
+  <style>
+    .brand { font: 48px sans-serif; fill: #0a2a55; font-weight: 700; }
+    .dot { fill: #0a2a55; }
+    .line { stroke: #0a2a55; stroke-width: 6; fill: none; }
+  </style>
+  <g transform="translate(20,20)">
+    <circle cx="90" cy="100" r="80" fill="none" stroke="#0a2a55" stroke-width="8"/>
+    <circle cx="50" cy="60" r="10" class="dot"/>
+    <circle cx="130" cy="50" r="10" class="dot"/>
+    <circle cx="140" cy="130" r="10" class="dot"/>
+    <circle cx="70" cy="150" r="10" class="dot"/>
+    <circle cx="100" cy="95" r="10" class="dot"/>
+    <path d="M50 60 L100 95 L130 50 L140 130 L70 150 L50 60" class="line"/>
+  </g>
+  <text x="220" y="115" class="brand">QCA</text>
+  <text x="220" y="165" class="brand" style="font-size:28px;font-weight:600;">QuantumCanvasAI Platform</text>
+</svg>
